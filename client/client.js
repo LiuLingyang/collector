@@ -22,9 +22,9 @@ let SCreateTime = new Date().getTime();
 let UserAgent = navigator.userAgent;
 let output = new UA(UserAgent);
 //设备
-let DevicePLA = output.device.type;    //平台
-let Device = output.device.model;      //类型
-let DeviceVER = undefined;             //型号不好拿
+let DevicePLA = output.device.type;       //平台
+let Device = output.device.manufacturer;  //类型
+let DeviceVER = output.device.model;      //型号
 
 //操作系统
 let OS = output.os.name;
