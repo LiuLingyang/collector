@@ -1,7 +1,7 @@
 var path = require('path');
 module.exports = {
   entry:{
-    client:"./client/client.js",
+    collector:"./client/collector.js",
     iframe:"./client/iframe.js"
   },
   output: {

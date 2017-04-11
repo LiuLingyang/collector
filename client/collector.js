@@ -60,5 +60,6 @@ let options = {
 }
 
 iframe.name = JSON.stringify(options)
+console.log(options)
 iframe.style.display = 'none'; 
 document.body.appendChild(iframe);
